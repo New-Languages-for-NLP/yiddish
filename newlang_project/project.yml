@@ -1,0 +1,112 @@
+title: "Train new language model from cadet and inception data"
+description: "This project template lets you train a part-of-speech tagger, morphologizer and dependency parser from your cadet and inception data."
+  
+# Adapted from https://github.com/explosion/projects/blob/v3/pipelines/tagger_parser_ud/project.yml
+# and https://github.com/BCDH/spacy-serbian-pipeline/blob/binder/tagger_parser_lookups_srp/project.yml
+# Variables can be referenced across the project.yml using ${vars.var_name}
+
+vars:
+  config: "config.cfg"
+  lang: "yi"
+  treebank: "yiddish"
+  test_size: 0.2
+  n_sents: 10
+  random_state: 11
+  package_name: "new language"
+  package_version: "0.0.0"
+  wandb: false 
+  gpu: 0
+
+# These are the directories that the project needs. The project CLI will make
+# sure that they always exist.
+directories: ["assets", "corpus", "corpus/conllu", "corpus/conll", "corpus/converted", "training", "metrics", "configs", "output", "export", "packages"]
+
+assets:
+  - dest: "assets/${vars.treebank}"
+    git:
+      repo: "https://github.com/New-Languages-for-NLP/${vars.treebank}"
+      branch: "main"
+      path: ""
+
+workflows:
+  all:
+    - install
+    - convert
+    - split
+    - debug
+    - train
+    - evaluate
+    - package
+    - document
+
+commands:
+
+  - name: install
+    help: "Install the new language object from Cadet"
+    script:
+      - "rm -rf lang"
+      - "mkdir lang"
+      - "mkdir lang/${vars.lang}"
+      - "cp -r assets/${vars.treebank}/2_new_language_object/ lang/${vars.lang}/${vars.lang}" 
+      - "mv lang/${vars.lang}/${vars.lang}/setup.py lang/${vars.lang}/"
+      - "pip install -e lang/${vars.lang}"
+    deps:
+      - "assets/${vars.treebank}/2_new_language_object"
+      
+  - name: convert
+    help: "Convert the data to spaCy's format"
+    script: 
+      - "python scripts/convert.py assets/${vars.treebank}/3_inception_export ${vars.n_sents} ${vars.lang}"
+    deps:
+      - "assets/${vars.treebank}/3_inception_export"
+    
+  - name: split
+    help: "Split the data into train, validation, and test"
+    script: 
+      - "python scripts/split.py ${vars.test_size} ${vars.random_state} ${vars.lang}"
+    deps:
+      - "corpus/converted"
+    outputs:
+      - "corpus/train.spacy"
+      - "corpus/dev.spacy"
+      - "corpus/test.spacy"
+       
+  - name: debug
+    help: "Assess data for training using spaCy's debug data"
+    script:
+      - "python -m spacy debug data configs/${vars.config}"
+      
+  - name: train
+    help: "Train ${vars.treebank}"
+    script:
+      - "python -m spacy train configs/${vars.config} --output training/${vars.treebank} --gpu-id ${vars.gpu} --nlp.lang=${vars.lang}"
+    deps:
+      - "corpus/converted/train.spacy"
+      - "corpus/converted/dev.spacy"
+      - "configs/${vars.config}"
+    outputs:
+      - "training/${vars.treebank}/model-best"
+
+  - name: evaluate
+    help: "Evaluate on the test data and save the metrics"
+    script:
+      - "python -m spacy evaluate ./training/${vars.treebank}/model-best ./corpus/converted/test.spacy --output ./metrics/${vars.treebank}.json --gpu-id ${vars.gpu}"
+    deps:
+      - "training/${vars.treebank}/model-best"
+      - "corpus/converted/test.spacy"
+    outputs:
+      - "metrics/${vars.treebank}.json"
+
+  - name: package
+    help: "Package the trained model so it can be installed"
+    script:
+      - "python -m spacy package training/${vars.treebank}/model-best packages --name ${vars.package_name} --version ${vars.package_version} --force"
+    deps:
+      - "training/${vars.treebank}/model-best"
+    outputs_no_cache:
+      - "packages/${vars.lang}_${vars.package_name}-${vars.package_version}/dist/en_${vars.package_name}-${vars.package_version}.tar.gz"
+
+  - name: document
+    help: "Generate project documentation"
+    script:
+      - "python -m spacy project document --output README.md"
