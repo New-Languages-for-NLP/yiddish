@@ -1,0 +1,798 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = german-gsd-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = J. Ben-Jacob N.V. Hotel-Restaurant „DE DUITSCHE ADELAAR" 1925 Leeuwarden, den 24.
+1	J.	J.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=0:2
+2	Ben	Ben	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|TokenRange=3:6
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No|TokenRange=6:7
+4	Jacob	Jacob	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpacesAfter=\r\n|TokenRange=7:12
+5	N.V.	N.V.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	TokenRange=14:18
+6	Hotel	Hotel	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No|TokenRange=19:24
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|TokenRange=24:25
+8	Restaurant	Restaurant	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	SpacesAfter=\r\n|TokenRange=25:35
+9	„	„	PUNCT	$(	_	10	punct	_	SpaceAfter=No|TokenRange=37:38
+10	DE	DE	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	TokenRange=38:40
+11	DUITSCHE	DUITSCHE	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	TokenRange=41:49
+12	ADELAAR	ADELAAR	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	SpaceAfter=No|TokenRange=50:57
+13	"	"	PUNCT	$(	_	10	punct	_	SpacesAfter=\r\n|TokenRange=57:58
+14	1925	1925	NUM	CARD	NumType=Card	8	nmod	_	SpacesAfter=\r\n|TokenRange=60:64
+15	Leeuwarden	Leeuwarden	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=66:76
+16	,	,	PUNCT	$,	_	18	punct	_	TokenRange=76:77
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	TokenRange=78:81
+18	24	24	NUM	CARD	NumType=Card	15	appos	_	SpaceAfter=No|TokenRange=82:84
+19	.	.	PUNCT	$.	_	18	punct	_	TokenRange=84:85
+
+# sent_id = 2
+# text = 10. 1925 LEEUWARDEN Telef.
+1	10	10	NUM	CARD	NumType=Card	4	dep	_	SpaceAfter=No|TokenRange=86:88
+2	.	.	PUNCT	$.	_	1	punct	_	TokenRange=88:89
+3	1925	1925	NUM	CARD	NumType=Card	4	nmod	_	SpacesAfter=\r\n\s|TokenRange=90:94
+4	LEEUWARDEN	LEEUWARDEN	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\r\n|TokenRange=97:107
+5	Telef	Telef	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No|TokenRange=109:114
+6	.	.	PUNCT	$.	_	4	punct	_	TokenRange=114:115
+
+# sent_id = 3
+# text = 32 Electrische verlichting.
+1	32	32	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\r\n|TokenRange=116:118
+2	Electrische	Electrische	PROPN	NN	Case=Nom|Number=Plur	3	nsubj	_	TokenRange=120:131
+3	verlichting	verlichting	PROPN	ADJD	_	0	root	_	SpaceAfter=No|TokenRange=132:143
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=143:144
+
+# sent_id = 4
+# text = Centrale verwarming.
+1	Centrale	Centrale	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	TokenRange=146:154
+2	verwarming	verwarming	ADJ	ADJD	_	0	root	_	SpaceAfter=No|TokenRange=155:165
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=165:166
+
+# sent_id = 5
+# text = Directeur: M. v. d. Woude.
+1	Directeur	Directeur	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=168:177
+2	:	:	PUNCT	$.	_	3	punct	_	TokenRange=177:178
+3	M.	M.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=179:181
+4	v.	v.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	TokenRange=182:184
+5	d	d	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No|TokenRange=185:186
+6	.	.	PUNCT	$.	_	7	punct	_	TokenRange=186:187
+7	Woude	Woude	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=188:193
+8	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\r\n|TokenRange=193:194
+
+# sent_id = 6
+# text = Liebe Landsbergs, die Absicht dieses Schreiben hier ist nicht nur um die Pflicht des Versprechens zu erfüllen, ich habe wirklich das Verlangen ein wenig mit euch zu plau- dern, es wäre selbstverständlich viel besser könnte ich's mündlich tun.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=197:202
+2	Landsbergs	Landsbergs	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No|TokenRange=203:213
+3	,	,	PUNCT	$,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=213:214
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	TokenRange=216:219
+5	Absicht	Absicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	TokenRange=220:227
+6	dieses	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	TokenRange=228:234
+7	Schreiben	Schreiben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	TokenRange=235:244
+8	hier	hier	ADV	ADV	_	5	advmod	_	TokenRange=245:249
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	TokenRange=250:253
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	TokenRange=254:259
+11	nur	nur	ADV	ADV	_	9	advmod	_	TokenRange=260:263
+12	um	um	ADP	KOUI	_	18	mark	_	TokenRange=264:266
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	TokenRange=267:270
+14	Pflicht	Pflicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	TokenRange=271:278
+15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	TokenRange=279:282
+16	Versprechens	Versprechen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpacesAfter=\r\n|TokenRange=283:295
+17	zu	zu	PART	PTKZU	_	18	mark	_	TokenRange=297:299
+18	erfüllen	erfüllen	VERB	VVINF	VerbForm=Inf	1	advcl	_	SpaceAfter=No|TokenRange=300:308
+19	,	,	PUNCT	$,	_	21	punct	_	TokenRange=308:309
+20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	TokenRange=310:313
+21	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	TokenRange=314:318
+22	wirklich	wirklich	ADV	ADV	_	21	advmod	_	TokenRange=319:327
+23	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	TokenRange=328:331
+24	Verlangen	Verlangen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	TokenRange=332:341
+25	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	26	det	_	TokenRange=342:345
+26	wenig	wenig	PRON	PIS	Definite=Ind|PronType=Ind	30	obj	_	TokenRange=346:351
+27	mit	mit	ADP	APPR	_	28	case	_	TokenRange=352:355
+28	euch	euch	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	30	obl	_	TokenRange=356:360
+29	zu	zu	PART	PTKZU	_	30	mark	_	TokenRange=361:363
+30	plau	plau	VERB	VVINF	VerbForm=Inf	21	xcomp	_	SpaceAfter=No|TokenRange=364:368
+31	-	-	PUNCT	$(	_	32	punct	_	SpacesAfter=\r\n|TokenRange=368:369
+32	dern	dern	PRON	PDS	_	30	obj	_	SpaceAfter=No|TokenRange=371:375
+33	,	,	PUNCT	$,	_	42	punct	_	SpacesAfter=\s\s|TokenRange=375:376
+34	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	TokenRange=378:380
+35	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	TokenRange=381:385
+36	selbstverständlich	selbstverständlich	ADV	ADJD	_	38	advmod	_	TokenRange=386:404
+37	viel	viel	ADV	ADV	_	38	advmod	_	TokenRange=405:409
+38	besser	gut	ADJ	ADJD	_	42	advmod	_	TokenRange=410:416
+39	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	aux	_	TokenRange=417:423
+40	ich's	ich's	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	TokenRange=424:429
+41	mündlich	mündlich	ADV	ADJD	_	42	advmod	_	TokenRange=430:438
+42	tun	tun	VERB	VVINF	VerbForm=Inf	32	acl	_	SpaceAfter=No|TokenRange=439:442
+43	.	.	PUNCT	$.	_	9	punct	_	TokenRange=442:443
+
+# sent_id = 7
+# text = Was hat eigentlich in so ei¬ ner kurzen Zeit- mich an Euch so gebunden?
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	16	nsubj	_	TokenRange=444:447
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	TokenRange=448:451
+3	eigentlich	eigentlich	ADV	ADV	_	16	advmod	_	TokenRange=452:462
+4	in	in	ADP	APPR	_	7	case	_	TokenRange=463:465
+5	so	so	ADV	ADV	_	6	advmod	_	TokenRange=466:468
+6	ei	ei	NUM	CARD	_	7	nummod	_	SpaceAfter=No|TokenRange=469:471
+7	¬	¬	NOUN	NN	_	10	nmod	_	SpacesAfter=\r\n|TokenRange=471:472
+8	ner	ner	ADV	ADV	_	10	case	_	TokenRange=474:477
+9	kurzen	kurz	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	TokenRange=478:484
+10	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|TokenRange=485:489
+11	-	-	PUNCT	$(	_	16	punct	_	TokenRange=489:490
+12	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	TokenRange=491:495
+13	an	an	ADP	APPR	_	14	case	_	TokenRange=496:498
+14	Euch	euch	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	TokenRange=499:503
+15	so	so	ADV	ADV	_	16	advmod	_	TokenRange=504:506
+16	gebunden	binden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|TokenRange=507:515
+17	?	?	PUNCT	$.	_	16	punct	_	TokenRange=515:516
+
+# sent_id = 8
+# text = Hattet ihr ein Ahnung was war euer Haus für mich in Wiesbaden?
+1	Hattet	hatten	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=517:523
+2	ihr	ihr	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	1	nsubj	_	TokenRange=524:527
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	TokenRange=528:531
+4	Ahnung	Ahnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	TokenRange=532:538
+5	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	8	nsubj	_	TokenRange=539:542
+6	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	TokenRange=543:546
+7	euer	euer	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	8	nmod	_	TokenRange=547:551
+8	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	TokenRange=552:556
+9	für	für	ADP	APPR	_	10	case	_	TokenRange=557:560
+10	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpacesAfter=\r\n|TokenRange=561:565
+11	in	in	ADP	APPR	_	12	case	_	TokenRange=567:569
+12	Wiesbaden	Wiesbaden	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=570:579
+13	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s|TokenRange=579:580
+
+# sent_id = 9
+# text = Da mich bei Euch die Atmosphäre Europas mit ihrer banalischen Höflichkeit nicht umringt hat und mir Eure Beziehung zu mir so einfach und herzlich war, das gab mir eben die Möglichkeit meine Haltung nicht zu ändern und sich zu fühlen wie in meiner Umgebung.
+1	Da	da	SCONJ	KOUS	_	13	mark	_	TokenRange=582:584
+2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	TokenRange=585:589
+3	bei	bei	ADP	APPR	_	4	case	_	TokenRange=590:593
+4	Euch	Euch	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	obl	_	TokenRange=594:598
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	TokenRange=599:602
+6	Atmosphäre	Atmosphäre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nsubj	_	TokenRange=603:613
+7	Europas	Europa	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	TokenRange=614:621
+8	mit	mit	ADP	APPR	_	11	case	_	TokenRange=622:625
+9	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	11	det:poss	_	TokenRange=626:631
+10	banalischen	banalisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	TokenRange=632:643
+11	Höflichkeit	Höflichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	TokenRange=644:655
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	SpacesAfter=\s\s\r\n|TokenRange=656:661
+13	umringt	umringen	VERB	VVPP	VerbForm=Part	28	advcl	_	TokenRange=665:672
+14	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	TokenRange=673:676
+15	und	und	CCONJ	KON	_	22	cc	_	TokenRange=677:680
+16	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	22	iobj	_	TokenRange=681:684
+17	Eure	euer	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	18	det:poss	_	TokenRange=685:689
+18	Beziehung	Beziehung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	TokenRange=690:699
+19	zu	zu	ADP	APPR	_	20	case	_	TokenRange=700:702
+20	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	18	nmod	_	TokenRange=703:706
+21	so	so	ADV	ADV	_	22	advmod	_	TokenRange=707:709
+22	einfach	einfach	ADJ	ADJD	_	13	conj	_	TokenRange=710:717
+23	und	und	CCONJ	KON	_	24	cc	_	TokenRange=718:721
+24	herzlich	herzlich	ADJ	ADJD	_	22	conj	_	TokenRange=722:730
+25	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	SpaceAfter=No|TokenRange=731:734
+26	,	,	PUNCT	$,	_	13	punct	_	TokenRange=734:735
+27	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	28	nsubj	_	TokenRange=736:739
+28	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=740:743
+29	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	28	iobj	_	TokenRange=744:747
+30	eben	eben	ADV	ADV	_	28	advmod	_	TokenRange=748:752
+31	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpacesAfter=\r\n|TokenRange=753:756
+32	Möglichkeit	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	obj	_	TokenRange=758:769
+33	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	34	det:poss	_	TokenRange=770:775
+34	Haltung	Haltung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	obj	_	TokenRange=776:783
+35	nicht	nicht	PART	PTKNEG	Polarity=Neg	37	advmod	_	TokenRange=784:789
+36	zu	zu	PART	PTKZU	_	37	mark	_	TokenRange=790:792
+37	ändern	ändern	VERB	VVINF	VerbForm=Inf	28	xcomp	_	TokenRange=793:799
+38	und	und	CCONJ	KON	_	41	cc	_	TokenRange=800:803
+39	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	41	obj	_	TokenRange=804:808
+40	zu	zu	PART	PTKZU	_	41	mark	_	TokenRange=809:811
+41	fühlen	fühlen	VERB	VVINF	VerbForm=Inf	37	conj	_	TokenRange=812:818
+42	wie	wie	ADP	KOKOM	_	45	case	_	TokenRange=819:822
+43	in	in	ADP	APPR	_	45	case	_	TokenRange=823:825
+44	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	45	det:poss	_	TokenRange=826:832
+45	Umgebung	Umgebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No|TokenRange=833:841
+46	.	.	PUNCT	$.	_	28	punct	_	TokenRange=841:842
+
+# sent_id = 10
+# text = Ich fand bei Euch ein Stück Erez Israel im feinen Sinne dieses Wortes und die Stunden die ich bei Euch zugebracht habe, werden in meiner Erinnerung aufbewahrt werden zwischen den schönsten, die ich in meinem Leben gehabt habe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=843:846
+2	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter=\r\n|TokenRange=847:851
+3	bei	bei	ADP	APPR	_	4	case	_	TokenRange=853:856
+4	Euch	Euch	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl	_	TokenRange=857:861
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	TokenRange=862:865
+6	Stück	Stück	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	TokenRange=866:871
+7	Erez	Erez	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	appos	_	TokenRange=872:876
+8	Israel	Israel	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	7	flat	_	TokenRange=877:883
+9-10	im	_	_	_	_	_	_	_	TokenRange=884:886
+9	in	in	ADP	APPR	_	12	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	feinen	fein	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	12	amod	_	TokenRange=887:893
+12	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	TokenRange=894:899
+13	dieses	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	TokenRange=900:906
+14	Wortes	Wort	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	TokenRange=907:913
+15	und	und	CCONJ	KON	_	29	cc	_	TokenRange=914:917
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	TokenRange=918:921
+17	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	nsubj:pass	_	TokenRange=922:929
+18	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	22	obj	_	TokenRange=930:933
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	TokenRange=934:937
+20	bei	bei	ADP	APPR	_	21	case	_	TokenRange=938:941
+21	Euch	Euch	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	obl	_	SpacesAfter=\r\n|TokenRange=942:946
+22	zugebracht	zubringen	VERB	VVPP	VerbForm=Part	17	acl	_	TokenRange=948:958
+23	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	SpaceAfter=No|TokenRange=959:963
+24	,	,	PUNCT	$,	_	22	punct	_	TokenRange=963:964
+25	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	aux	_	TokenRange=965:971
+26	in	in	ADP	APPR	_	28	case	_	TokenRange=972:974
+27	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	28	det:poss	_	TokenRange=975:981
+28	Erinnerung	Erinnerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	29	obl	_	TokenRange=982:992
+29	aufbewahrt	aufbewahren	VERB	VVPP	VerbForm=Part	2	conj	_	TokenRange=993:1003
+30	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	29	aux:pass	_	TokenRange=1004:1010
+31	zwischen	zwischen	ADP	APPR	_	33	case	_	TokenRange=1011:1019
+32	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	TokenRange=1020:1023
+33	schönsten	schön	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No|TokenRange=1024:1033
+34	,	,	PUNCT	$,	_	40	punct	_	TokenRange=1033:1034
+35	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	40	obj	_	TokenRange=1035:1038
+36	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	_	TokenRange=1039:1042
+37	in	in	ADP	APPR	_	39	case	_	SpacesAfter=\r\n|TokenRange=1043:1045
+38	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	39	det:poss	_	TokenRange=1047:1053
+39	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	40	obl	_	TokenRange=1054:1059
+40	gehabt	haben	VERB	VAPP	VerbForm=Part	33	acl	_	TokenRange=1060:1066
+41	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	SpaceAfter=No|TokenRange=1067:1071
+42	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=1071:1072
+
+# sent_id = 11
+# text = Verzeiht meine sentimentalen Ergüsse, es wäre besser möchte ich sie auch schriftlich ver schweigen wie ich ihnen mündlich keinen Ausdruck gab.
+1	Verzeiht	verzeihen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=1074:1082
+2	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	4	det:poss	_	TokenRange=1083:1088
+3	sentimentalen	sentimental	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	TokenRange=1089:1102
+4	Ergüsse	Erguss	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No|TokenRange=1103:1110
+5	,	,	PUNCT	$,	_	8	punct	_	TokenRange=1110:1111
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	TokenRange=1112:1114
+7	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	TokenRange=1115:1119
+8	besser	gut	ADJ	ADJD	_	1	parataxis	_	TokenRange=1120:1126
+9	möchte	mögen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	TokenRange=1127:1133
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	TokenRange=1134:1137
+11	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	TokenRange=1138:1141
+12	auch	auch	ADV	ADV	_	15	advmod	_	TokenRange=1142:1146
+13	schriftlich	schriftlich	ADV	ADJD	_	15	advmod	_	TokenRange=1147:1158
+14	ver	ver	ADV	ADV	_	15	advmod	_	SpacesAfter=\r\n|TokenRange=1159:1162
+15	schweigen	schweigen	VERB	VVINF	VerbForm=Inf	1	parataxis	_	TokenRange=1164:1173
+16	wie	wie	SCONJ	KOUS	_	22	mark	_	TokenRange=1174:1177
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	TokenRange=1178:1181
+18	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	22	iobj	_	TokenRange=1182:1187
+19	mündlich	mündlich	ADV	ADJD	_	22	advmod	_	TokenRange=1188:1196
+20	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	21	nmod	_	TokenRange=1197:1203
+21	Ausdruck	Ausdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	TokenRange=1204:1212
+22	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	SpaceAfter=No|TokenRange=1213:1216
+23	.	.	PUNCT	$.	_	1	punct	_	TokenRange=1216:1217
+
+# sent_id = 12
+# text = Doch, es geschieht, daß unser palästinensisches Herz, welches uns in der Fremde abgesperrt und gehärtet wird, eröffnet sich plötzlich mit zarter Herzensberührung, wird dann weich unmöglich mehr die Gefühle zu hemmen.
+1	Doch	doch	CCONJ	KON	_	4	advmod	_	SpaceAfter=No|TokenRange=1218:1222
+2	,	,	PUNCT	$,	_	4	punct	_	TokenRange=1222:1223
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	TokenRange=1224:1226
+4	geschieht	geschehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=1227:1236
+5	,	,	PUNCT	$,	_	21	punct	_	TokenRange=1236:1237
+6	daß	daß	SCONJ	KOUS	_	21	mark	_	TokenRange=1238:1241
+7	unser	unser	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	9	det:poss	_	TokenRange=1242:1247
+8	palästinensisches	palästinensisches	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	9	amod	_	SpacesAfter=\r\n|TokenRange=1248:1265
+9	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No|TokenRange=1267:1271
+10	,	,	PUNCT	$,	_	16	punct	_	TokenRange=1271:1272
+11	welches	welch	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	16	nsubj:pass	_	TokenRange=1273:1280
+12	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	16	obj	_	TokenRange=1281:1284
+13	in	in	ADP	APPR	_	15	case	_	TokenRange=1285:1287
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	TokenRange=1288:1291
+15	Fremde	Fremde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	TokenRange=1292:1298
+16	abgesperrt	absperren	VERB	VVPP	VerbForm=Part	9	acl	_	TokenRange=1299:1309
+17	und	und	CCONJ	KON	_	18	cc	_	TokenRange=1310:1313
+18	gehärtet	härten	VERB	VVPP	VerbForm=Part	16	conj	_	TokenRange=1314:1322
+19	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	aux:pass	_	SpaceAfter=No|TokenRange=1323:1327
+20	,	,	PUNCT	$,	_	16	punct	_	TokenRange=1327:1328
+21	eröffnet	eröffnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	TokenRange=1329:1337
+22	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	TokenRange=1338:1342
+23	plötzlich	plötzlich	ADJ	ADJD	_	21	advmod	_	TokenRange=1343:1352
+24	mit	mit	ADP	APPR	_	26	case	_	TokenRange=1353:1356
+25	zarter	zart	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	26	amod	_	SpacesAfter=\r\n|TokenRange=1357:1363
+26	Herzensberührung	Herzensberührung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|TokenRange=1365:1381
+27	,	,	PUNCT	$,	_	28	punct	_	TokenRange=1381:1382
+28	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	TokenRange=1383:1387
+29	dann	dann	ADV	ADV	_	28	advmod	_	TokenRange=1388:1392
+30	weich	weich	ADJ	ADJD	_	36	advmod	_	TokenRange=1393:1398
+31	unmöglich	unmöglich	ADJ	ADJD	_	28	advmod	_	TokenRange=1399:1408
+32	mehr	mehr	ADV	ADV	_	36	advmod	_	TokenRange=1409:1413
+33	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	34	det	_	TokenRange=1414:1417
+34	Gefühle	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	36	obj	_	TokenRange=1418:1425
+35	zu	zu	PART	PTKZU	_	36	mark	_	TokenRange=1426:1428
+36	hemmen	hemmen	VERB	VVINF	VerbForm=Inf	28	xcomp	_	SpaceAfter=No|TokenRange=1429:1435
+37	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=1435:1436
+
+# sent_id = 13
+# text = Was soll ich über mich schreiben?
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	6	obj	_	TokenRange=1438:1441
+2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	TokenRange=1442:1446
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	TokenRange=1447:1450
+4	über	über	ADP	APPR	_	5	case	_	TokenRange=1451:1455
+5	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	TokenRange=1456:1460
+6	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|TokenRange=1461:1470
+7	?	?	PUNCT	$.	_	6	punct	_	TokenRange=1470:1471
+
+# sent_id = 14
+# text = Die Zeit die ich in Palästina lebte, hat mich zulernen gelehrt über mich nicht in Verbindung mit der Allgemeinen "Sache" zu sprechen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	TokenRange=1472:1475
+2	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	TokenRange=1476:1480
+3	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	7	obj	_	TokenRange=1481:1484
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	TokenRange=1485:1488
+5	in	in	ADP	APPR	_	6	case	_	TokenRange=1489:1491
+6	Palästina	Palästina	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	TokenRange=1492:1501
+7	lebte	leben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	SpaceAfter=No|TokenRange=1502:1507
+8	,	,	PUNCT	$,	_	7	punct	_	TokenRange=1507:1508
+9	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	TokenRange=1509:1512
+10	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	TokenRange=1513:1517
+11	zulernen	zulernen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	TokenRange=1518:1526
+12	gelehrt	lehren	VERB	VVPP	VerbForm=Part	0	root	_	TokenRange=1527:1534
+13	über	über	ADP	APPR	_	14	case	_	SpacesAfter=\r\n|TokenRange=1535:1539
+14	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	obl	_	TokenRange=1541:1545
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	25	advmod	_	TokenRange=1546:1551
+16	in	in	ADP	APPR	_	17	case	_	TokenRange=1552:1554
+17	Verbindung	Verbindung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	TokenRange=1555:1565
+18	mit	mit	ADP	APPR	_	22	case	_	TokenRange=1566:1569
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	TokenRange=1570:1573
+20	Allgemeinen	allgemein	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	22	amod	_	TokenRange=1574:1585
+21	"	"	PUNCT	$(	_	22	punct	_	SpaceAfter=No|TokenRange=1586:1587
+22	Sache	Sache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No|TokenRange=1587:1592
+23	"	"	PUNCT	$(	_	22	punct	_	TokenRange=1592:1593
+24	zu	zu	PART	PTKZU	_	25	mark	_	TokenRange=1594:1596
+25	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|TokenRange=1597:1605
+26	.	.	PUNCT	$.	_	12	punct	_	TokenRange=1605:1606
+
+# sent_id = 15
+# text = So wirds auch jetzt geschehen.
+1	So	so	ADV	ADV	_	5	advmod	_	TokenRange=1607:1609
+2	wirds	wirds	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	TokenRange=1610:1615
+3	auch	auch	ADV	ADV	_	5	advmod	_	TokenRange=1616:1620
+4	jetzt	jetzt	ADV	ADV	_	5	advmod	_	TokenRange=1621:1626
+5	geschehen	geschehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|TokenRange=1627:1636
+6	.	.	PUNCT	$.	_	5	punct	_	TokenRange=1636:1637
+
+# sent_id = 16
+# text = Sollen verschiedene Staate, Frankreich Amerika Italien etc. kommen und für ihre Heimatländer Rassen zu kaufen.
+1	Sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpacesAfter=\r\n|TokenRange=1638:1644
+2	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	TokenRange=1646:1658
+3	Staate	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No|TokenRange=1659:1665
+4	,	,	PUNCT	$,	_	5	punct	_	TokenRange=1665:1666
+5	Frankreich	Frankreich	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	TokenRange=1667:1677
+6	Amerika	Amerika	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	5	flat	_	TokenRange=1678:1685
+7	Italien	Italien	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	5	flat	_	TokenRange=1686:1693
+8	etc.	etc.	ADV	ADV	_	9	advmod	_	TokenRange=1694:1698
+9	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	TokenRange=1699:1705
+10	und	und	CCONJ	KON	_	16	cc	_	TokenRange=1706:1709
+11	für	für	ADP	APPR	_	13	case	_	TokenRange=1710:1713
+12	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	13	det:poss	_	TokenRange=1714:1718
+13	Heimatländer	Heimatländer	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	TokenRange=1719:1731
+14	Rassen	Rasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	TokenRange=1732:1738
+15	zu	zu	PART	PTKZU	_	16	mark	_	SpacesAfter=\s\s\r\n|TokenRange=1739:1741
+16	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No|TokenRange=1745:1751
+17	.	.	PUNCT	$.	_	9	punct	_	TokenRange=1751:1752
+
+# sent_id = 17
+# text = Sie sind besonders stark gebaut, zahlen kollosale Preise für die Qualität von Hollands Vieh.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	TokenRange=1753:1756
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	TokenRange=1757:1761
+3	besonders	besonders	ADV	ADV	_	4	advmod	_	TokenRange=1762:1771
+4	stark	stark	ADJ	ADJD	_	5	advmod	_	TokenRange=1772:1777
+5	gebaut	bauen	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|TokenRange=1778:1784
+6	,	,	PUNCT	$,	_	7	punct	_	TokenRange=1784:1785
+7	zahlen	zahlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	TokenRange=1786:1792
+8	kollosale	kollosal	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	9	amod	_	TokenRange=1793:1802
+9	Preise	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	TokenRange=1803:1809
+10	für	für	ADP	APPR	_	12	case	_	TokenRange=1810:1813
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	TokenRange=1814:1817
+12	Qualität	Qualität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	TokenRange=1818:1826
+13	von	von	ADP	APPR	_	15	case	_	TokenRange=1827:1830
+14	Hollands	Holland	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	TokenRange=1831:1839
+15	Vieh	Vieh	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|TokenRange=1840:1844
+16	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=1844:1845
+
+# sent_id = 18
+# text = Die Geldfrage ist bei ihnen nicht vorhanden, die Hauptsache das Beste und Schönste nach ihrer Heimat zu führen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	TokenRange=1847:1850
+2	Geldfrage	Geldfrage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=1851:1860
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	TokenRange=1861:1864
+4	bei	bei	ADP	APPR	_	5	case	_	TokenRange=1865:1868
+5	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	nmod	_	TokenRange=1869:1874
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	TokenRange=1875:1880
+7	vorhanden	vorhanden	ADJ	ADJD	_	0	root	_	SpaceAfter=No|TokenRange=1881:1890
+8	,	,	PUNCT	$,	_	19	punct	_	TokenRange=1890:1891
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	TokenRange=1892:1895
+10	Hauptsache	Hauptsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	obj	_	TokenRange=1896:1906
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	TokenRange=1907:1910
+12	Beste	Beste	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	TokenRange=1911:1916
+13	und	und	CCONJ	KON	_	14	cc	_	TokenRange=1917:1920
+14	Schönste	Schönst	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	TokenRange=1921:1929
+15	nach	nach	ADP	APPR	_	17	case	_	TokenRange=1930:1934
+16	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	17	det:poss	_	TokenRange=1935:1940
+17	Heimat	Heimat	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	TokenRange=1941:1947
+18	zu	zu	PART	PTKZU	_	19	mark	_	SpacesAfter=\r\n|TokenRange=1948:1950
+19	führen	führen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|TokenRange=1952:1958
+20	.	.	PUNCT	$.	_	7	punct	_	TokenRange=1958:1959
+
+# sent_id = 19
+# text = Zwischen ihnen auf den grünen Wiesen ist ein jüdischer Jungermann, ein Sohn unseres Staates;
+1	Zwischen	zwischen	ADP	APPR	_	2	case	_	TokenRange=1960:1968
+2	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	10	nmod	_	TokenRange=1969:1974
+3	auf	auf	ADP	APPR	_	6	case	_	TokenRange=1975:1978
+4	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	TokenRange=1979:1982
+5	grünen	grün	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	6	amod	_	TokenRange=1983:1989
+6	Wiesen	Wiese	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	TokenRange=1990:1996
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=1997:2000
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	TokenRange=2001:2004
+9	jüdischer	jüdisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	TokenRange=2005:2014
+10	Jungermann	Jungermann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=2015:2025
+11	,	,	PUNCT	$,	_	13	punct	_	TokenRange=2025:2026
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	TokenRange=2027:2030
+13	Sohn	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	TokenRange=2031:2035
+14	unseres	unser	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	15	det:poss	_	SpacesAfter=\r\n|TokenRange=2036:2043
+15	Staates	Staat	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|TokenRange=2045:2052
+16	;	;	PUNCT	$.	_	10	punct	_	TokenRange=2052:2053
+
+# sent_id = 20
+# text = "eines armen Volkes", sein Gürtel ist leer und er ist verpflichtet, viel kombinieren zu müs¬ sen und um diese von den adeligen Kühen zu wählen welche verschiedene keine Fehler ha¬ ben, abgelenkt von dem Adel Hollands und für die Landesbedingungen Palästinas kaum großen Wert haben.
+1	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No|TokenRange=2054:2055
+2	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	TokenRange=2055:2060
+3	armen	arm	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	4	amod	_	TokenRange=2061:2066
+4	Volkes	Volk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|TokenRange=2067:2073
+5	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No|TokenRange=2073:2074
+6	,	,	PUNCT	$,	_	14	punct	_	TokenRange=2074:2075
+7	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	8	det:poss	_	TokenRange=2076:2080
+8	Gürtel	Gürtel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=2081:2087
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	TokenRange=2088:2091
+10	leer	leer	ADJ	ADJD	_	0	root	_	TokenRange=2092:2096
+11	und	und	CCONJ	KON	_	14	cc	_	TokenRange=2097:2100
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	TokenRange=2101:2103
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	TokenRange=2104:2107
+14	verpflichtet	verpflichten	ADJ	VVPP	VerbForm=Part	10	conj	_	SpaceAfter=No|TokenRange=2108:2120
+15	,	,	PUNCT	$,	_	17	punct	_	TokenRange=2120:2121
+16	viel	viel	PRON	PIS	Definite=Ind|PronType=Ind	17	obj	_	TokenRange=2122:2126
+17	kombinieren	kombinieren	VERB	VVINF	VerbForm=Inf	14	xcomp	_	TokenRange=2127:2138
+18	zu	zu	ADP	APPR	_	19	case	_	TokenRange=2139:2141
+19	müs	müs	PROPN	NE	Foreign=Yes	17	obl	_	SpaceAfter=No|TokenRange=2142:2145
+20	¬	¬	PROPN	XY	_	19	flat	_	SpacesAfter=\r\n|TokenRange=2145:2146
+21	sen	sen	PROPN	NE	VerbForm=Inf	19	flat	_	TokenRange=2148:2151
+22	und	und	CCONJ	KON	_	30	cc	_	TokenRange=2152:2155
+23	um	um	ADP	KOUI	_	30	mark	_	TokenRange=2156:2158
+24	diese	dies	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	30	obj	_	TokenRange=2159:2164
+25	von	von	ADP	APPR	_	28	case	_	TokenRange=2165:2168
+26	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	TokenRange=2169:2172
+27	adeligen	adelig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	28	amod	_	TokenRange=2173:2181
+28	Kühen	Kühe	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	30	obl	_	TokenRange=2182:2187
+29	zu	zu	PART	PTKZU	_	30	mark	_	TokenRange=2188:2190
+30	wählen	wählen	VERB	VVINF	VerbForm=Inf	17	conj	_	TokenRange=2191:2197
+31	welche	welch	PRON	PWAT	Case=Nom|Number=Plur|PronType=Rel	34	det	_	TokenRange=2198:2204
+32	verschiedene	verscheiden	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	TokenRange=2205:2217
+33	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	34	nmod	_	TokenRange=2218:2223
+34	Fehler	Fehler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	30	obj	_	TokenRange=2224:2230
+35	ha	ha	PROPN	NN	_	34	appos	_	SpaceAfter=No|TokenRange=2231:2233
+36	¬	¬	PROPN	XY	_	35	flat	_	SpacesAfter=\r\n|TokenRange=2233:2234
+37	ben	ben	VERB	FM	Foreign=Yes	35	conj	_	SpaceAfter=No|TokenRange=2236:2239
+38	,	,	PUNCT	$,	_	39	punct	_	TokenRange=2239:2240
+39	abgelenkt	ablenken	VERB	VVPP	VerbForm=Part	35	conj	_	TokenRange=2241:2250
+40	von	von	ADP	APPR	_	42	case	_	TokenRange=2251:2254
+41	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	TokenRange=2255:2258
+42	Adel	Adel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	39	obl	_	TokenRange=2259:2263
+43	Hollands	Holland	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	42	nmod	_	TokenRange=2264:2272
+44	und	und	CCONJ	KON	_	52	cc	_	TokenRange=2273:2276
+45	für	für	ADP	APPR	_	47	case	_	TokenRange=2277:2280
+46	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	TokenRange=2281:2284
+47	Landesbedingungen	Landesbedingung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	52	obl	_	TokenRange=2285:2302
+48	Palästinas	Palästina	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	TokenRange=2303:2313
+49	kaum	kaum	ADV	ADV	_	52	advmod	_	TokenRange=2314:2318
+50	großen	groß	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	51	amod	_	SpacesAfter=\r\n|TokenRange=2319:2325
+51	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	52	obj	_	TokenRange=2327:2331
+52	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	SpaceAfter=No|TokenRange=2332:2337
+53	.	.	PUNCT	$.	_	10	punct	_	TokenRange=2337:2338
+
+# sent_id = 21
+# text = Er ist bleich und lahm und wenn seine Schmerzen ihn überwältigen und sein Bein versagt, verschlingt er ein Morfium Pulver, und stützend auf den Arm seiner
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	TokenRange=2339:2341
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	TokenRange=2342:2345
+3	bleich	bleich	ADJ	ADJD	_	0	root	_	TokenRange=2346:2352
+4	und	und	CCONJ	KON	_	5	cc	_	TokenRange=2353:2356
+5	lahm	lahm	ADJ	ADJD	_	3	conj	_	TokenRange=2357:2361
+6	und	und	CCONJ	KON	_	17	cc	_	TokenRange=2362:2365
+7	wenn	wenn	SCONJ	KOUS	_	11	mark	_	TokenRange=2366:2370
+8	seine	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	9	det:poss	_	SpacesAfter=\s\s|TokenRange=2371:2376
+9	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	TokenRange=2378:2387
+10	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	TokenRange=2388:2391
+11	überwältigen	überwältigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	TokenRange=2392:2404
+12	und	und	CCONJ	KON	_	15	cc	_	TokenRange=2405:2408
+13	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	14	det:poss	_	SpacesAfter=\r\n|TokenRange=2409:2413
+14	Bein	Bein	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	nsubj	_	TokenRange=2415:2419
+15	versagt	versagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No|TokenRange=2420:2427
+16	,	,	PUNCT	$,	_	11	punct	_	TokenRange=2427:2428
+17	verschlingt	verschlingen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	TokenRange=2429:2440
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	TokenRange=2441:2443
+19	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	TokenRange=2444:2447
+20	Morfium	Morfium	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	TokenRange=2448:2455
+21	Pulver	Pulver	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	20	appos	_	SpaceAfter=No|TokenRange=2456:2462
+22	,	,	PUNCT	$,	_	27	punct	_	TokenRange=2462:2463
+23	und	und	CCONJ	KON	_	24	cc	_	TokenRange=2464:2467
+24	stützend	stützend	ADJ	ADJD	_	17	conj	_	TokenRange=2468:2476
+25	auf	auf	ADP	APPR	_	27	case	_	TokenRange=2477:2480
+26	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	TokenRange=2481:2484
+27	Arm	Arm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	TokenRange=2485:2488
+28	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	27	det:poss	_	SpacesAfter=\r\n\r\n\r\n|TokenRange=2489:2495
+
+# newpar
+# sent_id = 22
+# text = Kameraden schleppt er sein Bein mit sich fort.
+1	Kameraden	Kamerad	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	iobj	_	TokenRange=2501:2510
+2	schleppt	schleppen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=2511:2519
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=2520:2522
+4	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	5	det:poss	_	TokenRange=2523:2527
+5	Bein	Bein	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	TokenRange=2528:2532
+6	mit	mit	ADP	APPR	_	7	case	_	TokenRange=2533:2536
+7	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl	_	TokenRange=2537:2541
+8	fort	fort	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|TokenRange=2542:2546
+9	.	.	PUNCT	$.	_	2	punct	_	TokenRange=2546:2547
+
+# sent_id = 23
+# text = Ist das gewissermassen nicht ein Simbol?
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	TokenRange=2548:2551
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	TokenRange=2552:2555
+3	gewissermassen	gewissermassen	ADV	ADV	_	6	advmod	_	TokenRange=2556:2570
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	TokenRange=2571:2576
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	TokenRange=2577:2580
+6	Simbol	Simbol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=2581:2587
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=2587:2588
+
+# sent_id = 24
+# text = Nach 12-14 Tagen beendige ich meine Arbeit hier.
+1	Nach	nach	ADP	APPR	_	3	case	_	TokenRange=2590:2594
+2	12-14	12-14	NUM	CARD	NumType=Card	3	nummod	_	TokenRange=2595:2600
+3	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	TokenRange=2601:2606
+4	beendige	beendigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=2607:2615
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	TokenRange=2616:2619
+6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	7	det:poss	_	TokenRange=2620:2625
+7	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	TokenRange=2626:2632
+8	hier	hier	ADV	ADV	_	4	advmod	_	SpaceAfter=No|TokenRange=2633:2637
+9	.	.	PUNCT	$.	_	4	punct	_	TokenRange=2637:2638
+
+# sent_id = 25
+# text = Wohin ich mich wenden werde weiß ich noch nicht.
+1	Wohin	wohin	ADV	PWAV	PronType=Int	4	advmod	_	TokenRange=2639:2644
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	TokenRange=2645:2648
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	TokenRange=2649:2653
+4	wenden	wenden	VERB	VVINF	VerbForm=Inf	6	ccomp	_	TokenRange=2654:2660
+5	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	TokenRange=2661:2666
+6	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\r\n|TokenRange=2667:2671
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	TokenRange=2673:2676
+8	noch	noch	ADV	ADV	_	9	advmod	_	TokenRange=2677:2681
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	SpaceAfter=No|TokenRange=2682:2687
+10	.	.	PUNCT	$.	_	6	punct	_	TokenRange=2687:2688
+
+# sent_id = 26
+# text = Habt ihr die bekannte Erzählung "Wäre ich Rothschild?" gelesen?
+1	Habt	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	TokenRange=2689:2693
+2	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	iobj	_	TokenRange=2694:2697
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	TokenRange=2698:2701
+4	bekannte	bekannt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	TokenRange=2702:2710
+5	Erzählung	Erzählung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	TokenRange=2711:2720
+6	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No|TokenRange=2721:2722
+7	Wäre	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	TokenRange=2722:2726
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	TokenRange=2727:2730
+9	Rothschild	Rothschild	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=2731:2741
+10	?	?	PUNCT	$.	_	9	punct	_	SpaceAfter=No|TokenRange=2741:2742
+11	"	"	PUNCT	$(	_	9	punct	_	SpacesAfter=\r\n|TokenRange=2742:2743
+12	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|TokenRange=2745:2752
+13	?	?	PUNCT	$.	_	12	punct	_	TokenRange=2752:2753
+
+# sent_id = 27
+# text = Wäre ich wirklich Rothschild samt des verschiedenen Noble, was ich dann getan möchte wäre auch ein Blick zu Euch für zwei drei Tag, die ich hier zufällig entbehren konnte.
+1	Wäre	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	TokenRange=2754:2758
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	TokenRange=2759:2762
+3	wirklich	wirklich	ADV	ADV	_	4	advmod	_	TokenRange=2763:2771
+4	Rothschild	Rothschild	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=2772:2782
+5	samt	samt	ADP	APPR	_	8	case	_	TokenRange=2783:2787
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	TokenRange=2788:2791
+7	verschiedenen	verschieden	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	8	amod	_	TokenRange=2792:2805
+8	Noble	Noble	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=2806:2811
+9	,	,	PUNCT	$,	_	13	punct	_	TokenRange=2811:2812
+10	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	13	obj	_	TokenRange=2813:2816
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	TokenRange=2817:2820
+12	dann	dann	ADV	ADV	_	13	advmod	_	TokenRange=2821:2825
+13	getan	tun	VERB	VVINF	VerbForm=Inf	4	acl	_	SpacesAfter=\s\r\n|TokenRange=2826:2831
+14	möchte	mögen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	TokenRange=2834:2840
+15	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	TokenRange=2841:2845
+16	auch	auch	ADV	ADV	_	18	advmod	_	TokenRange=2846:2850
+17	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	TokenRange=2851:2854
+18	Blick	Blick	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	TokenRange=2855:2860
+19	zu	zu	ADP	APPR	_	20	case	_	TokenRange=2861:2863
+20	Euch	Euch	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	18	nmod	_	TokenRange=2864:2868
+21	für	für	ADP	APPR	_	24	case	_	TokenRange=2869:2872
+22	zwei	zwei	NUM	CARD	NumType=Card	24	nummod	_	TokenRange=2873:2877
+23	drei	drei	NUM	CARD	NumType=Card	24	nummod	_	TokenRange=2878:2882
+24	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No|TokenRange=2883:2886
+25	,	,	PUNCT	$,	_	30	punct	_	TokenRange=2886:2887
+26	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	30	obj	_	TokenRange=2888:2891
+27	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	TokenRange=2892:2895
+28	hier	hier	ADV	ADV	_	30	advmod	_	TokenRange=2896:2900
+29	zufällig	zufällig	ADV	ADJD	_	30	advmod	_	TokenRange=2901:2909
+30	entbehren	entbehren	VERB	VVINF	VerbForm=Inf	24	acl	_	SpacesAfter=\r\n|TokenRange=2910:2919
+31	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	SpaceAfter=No|TokenRange=2921:2927
+32	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=2927:2928
+
+# sent_id = 28
+# text = Es wird mich freuen, wenn ich etliche Worte von Euch bekommen werde.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	TokenRange=2930:2932
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	TokenRange=2933:2937
+3	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	TokenRange=2938:2942
+4	freuen	freuen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|TokenRange=2943:2949
+5	,	,	PUNCT	$,	_	12	punct	_	TokenRange=2949:2950
+6	wenn	wenn	SCONJ	KOUS	_	12	mark	_	TokenRange=2951:2955
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	TokenRange=2956:2959
+8	etliche	etliche	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	TokenRange=2960:2967
+9	Worte	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	TokenRange=2968:2973
+10	von	von	ADP	APPR	_	11	case	_	TokenRange=2974:2977
+11	Euch	euch	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	obl	_	TokenRange=2978:2982
+12	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	4	advcl	_	TokenRange=2983:2991
+13	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No|TokenRange=2992:2997
+14	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=2997:2998
+
+# sent_id = 29
+# text = Schalom und viele Grüße Ihr J. Benjacob.
+1	Schalom	Schalom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=3000:3007
+2	und	und	CCONJ	KON	_	4	cc	_	TokenRange=3008:3011
+3	viele	viel	DET	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	4	amod	_	TokenRange=3012:3017
+4	Grüße	Guss	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	SpacesAfter=\r\n|TokenRange=3018:3023
+5	Ihr	Ihr|ihr	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	6	det:poss	_	SpacesAfter=\r\n|TokenRange=3025:3028
+6	J.	J.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	TokenRange=3030:3032
+7	Benjacob	Benjacob	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	SpaceAfter=No|TokenRange=3033:3041
+8	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=3041:3042
+
+# sent_id = 30
+# text = Sie gestatten, wenn ich mich vorstelle: Ben-Jacobs Freund von Daganja der in der Tschechoslowakai weilt und Wiesbaden passieren sollte.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	TokenRange=3044:3047
+2	gestatten	gestatten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=3048:3057
+3	,	,	PUNCT	$,	_	7	punct	_	TokenRange=3057:3058
+4	wenn	wenn	SCONJ	KOUS	_	7	mark	_	TokenRange=3059:3063
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	TokenRange=3064:3067
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	TokenRange=3068:3072
+7	vorstelle	vorstellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|TokenRange=3073:3082
+8	:	:	PUNCT	$.	_	12	punct	_	TokenRange=3082:3083
+9	Ben	Ben	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|TokenRange=3084:3087
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No|TokenRange=3087:3088
+11	Jacobs	Jacobs	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	TokenRange=3088:3094
+12	Freund	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	TokenRange=3095:3101
+13	von	von	ADP	APPR	_	14	case	_	SpacesAfter=\r\n|TokenRange=3102:3105
+14	Daganja	Daganja	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	TokenRange=3107:3114
+15	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	19	nsubj	_	TokenRange=3115:3118
+16	in	in	ADP	APPR	_	18	case	_	TokenRange=3119:3121
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	TokenRange=3122:3125
+18	Tschechoslowakai	Tschechoslowakai	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	TokenRange=3126:3142
+19	weilt	weilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	TokenRange=3143:3148
+20	und	und	CCONJ	KON	_	22	cc	_	TokenRange=3149:3152
+21	Wiesbaden	Wiesbaden	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	TokenRange=3153:3162
+22	passieren	passieren	VERB	VVINF	VerbForm=Inf	19	conj	_	SpacesAfter=\r\n|TokenRange=3163:3172
+23	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No|TokenRange=3174:3180
+24	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=3180:3181
+
+# sent_id = 31
+# text = Er hat mir heute verschafft, dem Ben-Jacob sein gutes Hebräisch in mein schlechtes Deutsch übersetzen zu dürfen, und da er mir soviel Schönes über Euch erzählt hat, konnte ich nicht unterlassen um an Euch etliche Worte zu schreiben und zu betonen, daß trotz der Unbekanntschaft doch eine Freund schaft zu Euch fühle.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	TokenRange=3183:3185
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	TokenRange=3186:3189
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	TokenRange=3190:3193
+4	heute	heute	ADV	ADV	_	5	advmod	_	TokenRange=3194:3199
+5	verschafft	verschaffen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|TokenRange=3200:3210
+6	,	,	PUNCT	$,	_	18	punct	_	TokenRange=3210:3211
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	TokenRange=3212:3215
+8	Ben	Ben	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	iobj	_	SpaceAfter=No|TokenRange=3216:3219
+9	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No|TokenRange=3219:3220
+10	Jacob	Jacob	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	flat	_	TokenRange=3220:3225
+11	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	13	det:poss	_	TokenRange=3226:3230
+12	gutes	gut	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	TokenRange=3231:3236
+13	Hebräisch	Hebräisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	TokenRange=3237:3246
+14	in	in	ADP	APPR	_	17	case	_	SpacesAfter=\r\n|TokenRange=3247:3249
+15	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	17	det:poss	_	TokenRange=3251:3255
+16	schlechtes	schlecht	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	17	amod	_	TokenRange=3256:3266
+17	Deutsch	Deutsch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	TokenRange=3267:3274
+18	übersetzen	übersetzen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	TokenRange=3275:3285
+19	zu	zu	PART	PTKZU	_	18	mark	_	TokenRange=3286:3288
+20	dürfen	dürfen	AUX	VMINF	VerbForm=Inf	18	aux	_	SpaceAfter=No|TokenRange=3289:3295
+21	,	,	PUNCT	$,	_	36	punct	_	TokenRange=3295:3296
+22	und	und	CCONJ	KON	_	36	cc	_	TokenRange=3297:3300
+23	da	da	SCONJ	KOUS	_	30	mark	_	TokenRange=3301:3303
+24	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	TokenRange=3304:3306
+25	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	30	iobj	_	TokenRange=3307:3310
+26	soviel	soviel	PRON	PIAT	Definite=Ind|PronType=Ind	27	det	_	TokenRange=3311:3317
+27	Schönes	schön	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	SpacesAfter=\r\n|TokenRange=3318:3325
+28	über	über	ADP	APPR	_	29	case	_	TokenRange=3327:3331
+29	Euch	Euch	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	30	obl	_	TokenRange=3332:3336
+30	erzählt	erzählen	VERB	VVPP	VerbForm=Part	36	advcl	_	TokenRange=3337:3344
+31	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	SpaceAfter=No|TokenRange=3345:3348
+32	,	,	PUNCT	$,	_	30	punct	_	TokenRange=3348:3349
+33	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	36	aux	_	TokenRange=3350:3356
+34	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	TokenRange=3357:3360
+35	nicht	nicht	PART	PTKNEG	Polarity=Neg	36	advmod	_	TokenRange=3361:3366
+36	unterlassen	unterlassen	VERB	VVINF	VerbForm=Inf	5	conj	_	TokenRange=3367:3378
+37	um	um	ADP	KOUI	_	43	mark	_	TokenRange=3379:3381
+38	an	an	ADP	APPR	_	39	case	_	TokenRange=3382:3384
+39	Euch	Euch	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	43	obl	_	TokenRange=3385:3389
+40	etliche	etliche	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	41	det	_	SpacesAfter=\r\n|TokenRange=3390:3397
+41	Worte	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	43	obj	_	TokenRange=3399:3404
+42	zu	zu	PART	PTKZU	_	43	mark	_	TokenRange=3405:3407
+43	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	36	advcl	_	TokenRange=3408:3417
+44	und	und	CCONJ	KON	_	46	cc	_	TokenRange=3418:3421
+45	zu	zu	PART	PTKZU	_	46	mark	_	TokenRange=3422:3424
+46	betonen	betonen	VERB	VVINF	VerbForm=Inf	43	conj	_	SpaceAfter=No|TokenRange=3425:3432
+47	,	,	PUNCT	$,	_	58	punct	_	TokenRange=3432:3433
+48	daß	daß	SCONJ	KOUS	_	58	mark	_	TokenRange=3434:3437
+49	trotz	trotz	ADP	APPR	_	51	case	_	TokenRange=3438:3443
+50	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	TokenRange=3444:3447
+51	Unbekanntschaft	Unbekanntschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	58	obl	_	TokenRange=3448:3463
+52	doch	doch	ADV	ADV	_	58	advmod	_	TokenRange=3464:3468
+53	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	54	det	_	TokenRange=3469:3473
+54	Freund	Freund	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	58	nsubj	_	SpacesAfter=\r\n|TokenRange=3474:3480
+55	schaft	schaft	ADJ	ADJD	_	58	advmod	_	TokenRange=3482:3488
+56	zu	zu	ADP	APPR	_	57	case	_	TokenRange=3489:3491
+57	Euch	Euch	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	58	obl	_	TokenRange=3492:3496
+58	fühle	fühlen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	ccomp	_	SpaceAfter=No|TokenRange=3497:3502
+59	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=3502:3503
+
+# sent_id = 32
+# text = Über den Inhalt des Briefes Ben-Jacobs will ich meine Meinung nicht äußern, trotzdem viele Stellen viel zu viel schwarz sind.
+1	Über	über	ADP	APPR	_	3	case	_	TokenRange=3505:3509
+2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	TokenRange=3510:3513
+3	Inhalt	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	TokenRange=3514:3520
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	TokenRange=3521:3524
+5	Briefes	Brief	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	TokenRange=3525:3532
+6	Ben	Ben	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=3533:3536
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No|TokenRange=3536:3537
+8	Jacobs	Jacobs	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	TokenRange=3537:3543
+9	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	TokenRange=3544:3548
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	TokenRange=3549:3552
+11	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	TokenRange=3553:3558
+12	Meinung	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpacesAfter=\r\n|TokenRange=3559:3566
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	TokenRange=3568:3573
+14	äußern	äußern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|TokenRange=3574:3580
+15	,	,	PUNCT	$,	_	22	punct	_	TokenRange=3580:3581
+16	trotzdem	trotzdem	ADV	PAV	_	22	advmod	_	TokenRange=3582:3590
+17	viele	viel	DET	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	18	det	_	TokenRange=3591:3596
+18	Stellen	Stelle|Stellen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	TokenRange=3597:3604
+19	viel	viel	ADV	ADV	_	21	advmod	_	TokenRange=3605:3609
+20	zu	zu	ADV	PTKA	_	21	advmod	_	TokenRange=3610:3612
+21	viel	viel	PRON	PIS	Definite=Ind|PronType=Ind	22	advmod	_	TokenRange=3613:3617
+22	schwarz	schwarz	ADJ	ADJD	_	14	advcl	_	TokenRange=3618:3625
+23	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	SpaceAfter=No|TokenRange=3626:3630
+24	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\r\n|TokenRange=3630:3631
+
+# sent_id = 33
+# text = Empfangt also palätinensische Grüße von ein Neuerworbenen Unbekanntem Freund Joshua Shanoa versuchte P.S. Ich versuchte mit Euch telephonisch sich in Verbindung zu setzen fand aber Niemanden vor.
+1	Empfangt	empfangen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	TokenRange=3633:3641
+2	also	also	ADV	ADV	_	1	advmod	_	TokenRange=3642:3646
+3	palätinensische	palätinensisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	TokenRange=3647:3662
+4	Grüße	Guss	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	TokenRange=3663:3668
+5	von	von	ADP	APPR	_	9	case	_	TokenRange=3669:3672
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	TokenRange=3673:3676
+7	Neuerworbenen	Neuerworbenen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	TokenRange=3677:3690
+8	Unbekanntem	unbekannt	PROPN	ADJA	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	SpacesAfter=\s\s\r\n|TokenRange=3691:3702
+9	Freund	Freund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\r\n|TokenRange=3706:3712
+10	Joshua	Joshua	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	9	appos	_	TokenRange=3714:3720
+11	Shanoa	Shanoa	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	SpacesAfter=\r\n|TokenRange=3721:3727
+12	versuchte	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter=\r\n\s|TokenRange=3729:3738
+13	P.S.	P.S.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=3741:3745
+14	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	TokenRange=3746:3749
+15	versuchte	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	ccomp	_	TokenRange=3750:3759
+16	mit	mit	ADP	APPR	_	17	case	_	TokenRange=3760:3763
+17	Euch	euch	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	23	obl	_	TokenRange=3764:3768
+18	telephonisch	telephonisch	ADJ	ADJD	_	23	advmod	_	SpacesAfter=\r\n|TokenRange=3769:3781
+19	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	23	obj	_	TokenRange=3783:3787
+20	in	in	ADP	APPR	_	21	case	_	TokenRange=3788:3790
+21	Verbindung	Verbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	TokenRange=3791:3801
+22	zu	zu	PART	PTKZU	_	23	mark	_	TokenRange=3802:3804
+23	setzen	setzen	VERB	VVINF	VerbForm=Inf	24	xcomp	_	SpacesAfter=\r\n|TokenRange=3805:3811
+24	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	TokenRange=3813:3817
+25	aber	aber	ADV	ADV	_	24	advmod	_	TokenRange=3818:3822
+26	Niemanden	niemand	PRON	PIS	Definite=Ind|PronType=Ind	24	obj	_	TokenRange=3823:3832
+27	vor	vor	ADP	PTKVZ	_	24	compound:prt	_	SpaceAfter=No|TokenRange=3833:3836
+28	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\r\n|TokenRange=3836:3837
+
+# sent_id = 34
+# text = J. B.
+1	J.	J.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=3839:3841
+2	B.	B.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpacesAfter=\r\n\r\n\r\n|TokenRange=3842:3844
+
