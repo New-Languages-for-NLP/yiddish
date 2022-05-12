@@ -42,4 +42,5 @@ This repository is the central point for documentation and data for your project
 - How to cite this project. 
 
 ### References
-1. 
+1. https://github.com/booknlp/booknlp
+2. Stanza
